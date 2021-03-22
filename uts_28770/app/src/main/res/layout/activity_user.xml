@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#fff"
+    tools:context="umn.ac.id.uts_28770.User">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"/>
+
+    <TextView
+        android:id="@+id/Profil"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/Nim" />
+
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/Nama" />
+
+    <TextView
+        android:id="@+id/Kelas"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/Kelas" />
+
+    <TextView
+        android:id="@+id/Referensi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Referensi :https://www.javatpoint.com/music-player-for-android " />
+
+    <TextView
+        android:id="@+id/Youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:textColor="#000000"
+        android:text="Youtube : https://youtu.be/JD7xqZst_2E " />
+
+    <TextView
+        android:id="@+id/Website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textColor="#000000"
+        android:text="Website" />
+    <TextView
+        android:id="@+id/Teman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textColor="#000000"
+        android:text="Teman" />
+
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/Teman"
+        android:layout_centerInParent="true"
+        android:ems="12"
+        android:layout_marginTop="30dp"
+        android:text="Masuk Ke Play List lagu"/>
+
+
+
+</RelativeLayout>
